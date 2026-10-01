@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>خانه</title>
+    <link rel="stylesheet" href="../1405.07.01 - 1405.07.30/Hesam31.css">
+    <style>
+        header {
+            width: auto;
+            height: 75px;
+            background-color: gray;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            border-radius: 20px;
+        }
+        a {
+            color: white;
+            font-size: 18px;
+            margin-left: 20px;
+            text-decoration: none;
+            border-bottom: 2px solid transparent;
+            transition: 0.5s;
+        }
+        a:hover {
+            color: blue;
+            border-bottom: 2px solid blue;
+        }
+        .card {
+            width: 190px;
+            height: 290px;
+            border: 3px solid black;
+            padding: 10px;
+            margin-top: 50px;
+            border-radius: 20px;
+            margin-left: 50px;
+            transition: 0.3s;
+        }
+        .card:first-child {
+            background-image: url(./1.jpg);
+        }
+        .card:nth-child(2) {
+            background-image: url(./2.jpg);
+        }
+        .card:last-child {
+            background-image: url(./3.jpg);
+        }
+        body {
+            background-image: url(./4.jpg);
+        }
+        header {
+            background-image: url(./5.jpg);
+        }
+        .card:hover {
+            transform: scale(1.1);
+        }
+        p {
+            width: 200px;
+            height: auto;
+        }
+        .register {
+            background-color: black;
+            color: white;
+            width: 100%;
+            height: 40px;
+            font-size: 16px;
+            border-radius: 15px;
+            transition: 0.3s;
+        }
+        .register:hover {
+            background-color: transparent;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav dir="rtl">
+            <a href="">خانه</a>
+            <a href="./Hesam32.html">دوره ها</a>
+            <a href="./Hesam33.html">درباره ما</a>
+            <a href="./Hesam34.html">تماس با ما</a>
+        </nav>
+    </header>
+    <div class="page">
+        <div class="card">
+            <h2>HTML & CSS</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus vitae maiores dolor nihil eos expedita aperiam accusantium itaque error! Eum necessitatibus sit laborum. Doloremque</p>
+            <button class="register">ثبت نام</button>
+        </div>
+        <div class="card">
+            <h2>JavaScript</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias culpa, hic illo at maiores magni corporis odit cum temporibus harum unde animi voluptate ut sunt doloremque, modi mollitia. eum nam</p>
+            <button class="register">ثبت نام</button>
+        </div>
+        <div class="card">
+            <h2>Python</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, iste dolorum porro eveniet voluptatem nostrum eius sequi ipsam earum fugiat iure laudantium veritatis soluta ea facere ipsum sed quos tempora?</p>
+            <button class="register">ثبت نام</button>
+        </div>
+    </div>
+</body>
+</html>
